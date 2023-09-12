@@ -7,6 +7,9 @@ public class Main
     boolean b = true;
     System.out.println(i);
     System.out.println(n);
-    System.out.print(b);
+    System.out.println(b);
+    System.out.println(i + 17);
+    System.out.println(n - 3.4);
+    System.out.print(n + 23 / n * 2);
   }
 }
