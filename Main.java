@@ -2,6 +2,8 @@ public class Main
 {
   public static void main(String[]arge)
   {
+    System.out.println("Hello, world.");
+    System.out.println("This took way longer than needed.");
     int i = 17;
     final double n = 3.10;
     boolean b = true;
