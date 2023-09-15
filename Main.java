@@ -28,5 +28,6 @@ public class Main
     --num2; 
     System.out.println(num1);
     System.out.println(num2); //1.4 + 1.3 challenge
+    System.out.println((int)n); // 1.5
 }
 }
