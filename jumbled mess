@@ -1,0 +1,19 @@
+import java.util.Random;
+public class PLACEHOLDER {
+    private int numberOfHeads;
+    private int numberOfTails;
+    private int result;
+    public int CompareNum(get(numberOfHeads), )
+    {
+        int x = 3;
+        int y = 8;
+        System.out.println("x = " + x + "\ny = " + y);
+        if(x>y)
+            return x;
+        else
+            return y;
+    }
+
+
+
+}
