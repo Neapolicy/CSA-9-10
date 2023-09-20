@@ -1,20 +1,44 @@
 import java.util.Random;
 public class Coin
 {
-    private double mass;
-    private String side = "Heads";
+    private int heads;
+    private int tails;
 
-    public void rigged_flip()
+    public Coin()
     {
         System.out.println("It's heads");
     }
-    public void normal_flip(String side)
+    public Coin(String side)
     {
         Random rand = new Random();
         int random_int = rand.nextInt(1);
         if (random_int == 0)
         {
-            
+            ++heads;
+            if (side.equals("heads") || side.equals("head"))
+            {
+                cheer();
+            }
+            else
+            {
+                System.out.println("You got it wrong.");
+            }
         }
+        else
+        {
+            ++tails;
+            if (side.equals("tails") || side.equals("tail"))
+            {
+                cheer();
+            }
+            else
+            {
+                System.out.println("You got it wrong.");
+            }
+        }
+    }
+    public void cheer()
+    {
+        System.out.println("You got it!");
     }
 }
