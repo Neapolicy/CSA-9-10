@@ -18,9 +18,13 @@ public class Project
         System.out.println("Heads or tails?");
         String answer = s.nextLine();
         s.close();
-        Coin coin = new Coin();
-        coin.rigged_flip();
-
-
+        if (res.equals("rigged"))
+        {
+            Coin coin = new Coin();
+        }
+        else
+        {
+            Coin coin_two = new Coin(answer);
+        }
     }
 }
